@@ -12,7 +12,8 @@ var characterSeedList = [
 		allies: "Winter Soldier, Peggy Carter, Falcon",
 		foes: "HYDRA, Red Skull, Dr. Arnim Zola",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/lI3C5Ep.jpg"
 	},
 	{
 		supername: "Ironman",
@@ -23,7 +24,8 @@ var characterSeedList = [
 		allies: "War Machine, J.A.R.V.I.S., Peggy Potts",
 		foes: "Iron Monger, Ultron, Aldrich Killian, Justin Hammer",
 		quote: "I single handedly privatized World Peace",
-		organization: "avengers"		
+		organization: "avengers"		,
+		image: "https://i.imgur.com/HITddnp.jpg"
 	},
 	{
 		supername: "Thor",
@@ -34,7 +36,8 @@ var characterSeedList = [
 		allies: "Jane Foster, Erik Selvig, Odin, Heimdall",
 		foes: "Loki, Malekith, Hela, Thanos",
 		quote: "I am mighty",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/lcERhBZ.jpg"
 	},
 	{
 		supername: "The Incredible Hulk",
@@ -45,7 +48,8 @@ var characterSeedList = [
 		allies: "Betty Ross, Black Widow",
 		foes: "Abomination, himself..",
 		quote: "HULK SMASH!!",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/bQ0ACp5.jpg"
 	},
 	{
 		supername: "Spiderman",
@@ -56,7 +60,8 @@ var characterSeedList = [
 		allies: "Betty Ross, Black Widow",
 		foes: "Abomination, himself..",
 		quote: "Just your friendly, neighborhood Spiderman!",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/lD7m17E.jpg"
 	},
 	{
 		supername: "The Vision?",
@@ -67,7 +72,8 @@ var characterSeedList = [
 		allies: "Scarlet Witch, Tony Stark",
 		foes: "Thanos",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/c5TipFj.jpg"
 	},
 	{
 		supername: "Black Panther",
@@ -78,7 +84,8 @@ var characterSeedList = [
 		allies: "Nakia, M'baku, Shuri, Okoye",
 		foes: "Killmonger, Klaue",
 		quote: "X",
-		organization: "avengers"	
+		organization: "avengers"	,
+		image: "https://i.imgur.com/2WN1TMd.jpg"
 	},
 	{
 		supername: "Hawkeye",
@@ -89,7 +96,8 @@ var characterSeedList = [
 		allies: "Black Widow",
 		foes: "...",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/Nkozmkr.jpg"
 	},
 	{
 		supername: "Black Widow",
@@ -100,7 +108,8 @@ var characterSeedList = [
 		allies: "Hawkeye, Hulk",
 		foes: "...",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/r4JdYLq.jpg"
 	},
 	{
 		supername: "Winter Soldier",
@@ -111,7 +120,8 @@ var characterSeedList = [
 		allies: "Captain America",
 		foes: "HYDRA",
 		quote: ".....",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/RvfkSyN.jpg"
 	},
 	{
 		supername: "Captain Marvel",
@@ -122,7 +132,8 @@ var characterSeedList = [
 		allies: "...",
 		foes: "....",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/JFt2WNa.jpg"
 	},
 	{
 		supername: "Nick Fury",
@@ -133,7 +144,8 @@ var characterSeedList = [
 		allies: "The Avengers",
 		foes: "Ultron, Ronan, Loki",
 		quote: "(probably something hilairious)",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/O7a6s38.jpg?2"
 	},
 	{
 		supername: "War Machine",
@@ -144,7 +156,8 @@ var characterSeedList = [
 		allies: "Iron Man",
 		foes: "...the ground",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/7dTRfsN.jpg"
 	},
 	{
 		supername: "Dr. Strange",
@@ -155,7 +168,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: ".....",
 		quote: "....",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/CflaXoy.jpg?2"
 	},
 	{
 		supername: "Ant-Man",
@@ -166,7 +180,8 @@ var characterSeedList = [
 		allies: "Wasp",
 		foes: "Yellowjacket",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/NPWAkJE.jpg"
 	},
 	{
 		supername: "Scarlet Witch",
@@ -177,7 +192,8 @@ var characterSeedList = [
 		allies: "Vision, Quicksilver",
 		foes: "....",
 		quote: ".....",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/RuQayyQ.jpg"
 	},
 	{
 		supername: "Falcon",
@@ -188,7 +204,8 @@ var characterSeedList = [
 		allies: "Captain America, War Machine",
 		foes: "...",
 		quote: "...",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/aOHb79K.jpg"
 	},
 	{
 		supername: "Starlord",
@@ -199,7 +216,8 @@ var characterSeedList = [
 		allies: "Gamora, Drax, Groot, Rocket",
 		foes: "Yondu, Ronan, Thanos, Nebula",
 		quote: "X",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/MlIk69s.jpg"
 	},
 	{
 		supername: "Gamora",
@@ -210,7 +228,8 @@ var characterSeedList = [
 		allies: "Starlord, Rocket, Groot, Drax",
 		foes: "Thanos, Nebula, Ronan",
 		quote: "....",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/BK0mJ5b.jpg"
 	},
 	{
 		supername: "Groot",
@@ -221,7 +240,8 @@ var characterSeedList = [
 		allies: "Starlord, Rocket, Drax, Gamora",
 		foes: "...",
 		quote: "I am Groot",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/sGmSewo.jpg"
 	},
 	{
 		supername: "Rocket",
@@ -232,7 +252,8 @@ var characterSeedList = [
 		allies: "Groot, Starlord, Drax, Gamora",
 		foes: "....",
 		quote: "....",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/YZE15eu.jpg"
 	},
 	{
 		supername: "Drax",
@@ -243,7 +264,8 @@ var characterSeedList = [
 		allies: "Starlord, Gamora, Groot, Rocket",
 		foes: "Thanos, Ronan",
 		quote: "X",
-		organization: "avengers"
+		organization: "avengers",
+		image: "https://i.imgur.com/veUzdAf.jpg"
 	},
 	{
 		supername: "Thanos",
@@ -254,7 +276,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: "....",
 		quote: "....",
-		organization: "villain"
+		organization: "villain",
+		image: "https://i.imgur.com/QCyYewg.jpg"
 	},
 	{
 		supername: "Ronan",
@@ -265,7 +288,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: "....",
 		quote: "....",
-		organization: "villain"
+		organization: "villain",
+		image: "https://i.imgur.com/MhwgUtb.jpg"
 	},
 	{
 		supername: "Ulton",
@@ -276,7 +300,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: "....",
 		quote: "....",
-		organization: "villain"
+		organization: "villain",
+		image: "https://i.imgur.com/MJwfoba.jpg"
 	},
 	{
 		supername: "Loki",
@@ -287,7 +312,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: "....",
 		quote: "....",
-		organization: "villain"
+		organization: "villain",
+		image: "https://i.imgur.com/O1hGuOs.jpg"
 	},
 	{
 		supername: "Nebula",
@@ -298,7 +324,8 @@ var characterSeedList = [
 		allies: "....",
 		foes: "....",
 		quote: "....",
-		organization: "villain"
+		organization: "villain",
+		image: "https://i.imgur.com/hXZ2PvC.jpg"
 	},
 ];
 
@@ -308,19 +335,22 @@ var placeSeedList = [
 		name: "Wakanda",
 		where: "Africa",
 		summary: "....",
-		events: "...."
+		events: "....",
+		image: "https://i.imgur.com/8shthsv.jpg"
 	},
 	{
 		name: "Socovia",
 		where: "...",
 		summary: "....",
-		events: "...."
+		events: "....",
+		image: "https://i.imgur.com/s2i1MZ9.png"
 	},
 	{
 		name: "Asgard",
 		where: "....",
 		summary: "....",
-		events: "...."
+		events: "....",
+		image: "https://i.imgur.com/ky1Z76C.png"
 	}
 ];
 

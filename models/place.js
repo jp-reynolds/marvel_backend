@@ -6,7 +6,8 @@ const PlaceSchema = new Schema ({
 	name: String,
 	where: String,
 	summary: String,
-	events: String
+	events: String,
+	image: String
 });
 
 var Place = mongoose.model('Place', PlaceSchema);

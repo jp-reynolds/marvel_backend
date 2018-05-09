@@ -10,7 +10,8 @@ const characterSchema = new Schema ({
 	summary: String,
 	allies: String,
 	foes: String,
-	organization: String
+	organization: String,
+	image: String
 });
 
 var Character = mongoose.model('Character', characterSchema);
