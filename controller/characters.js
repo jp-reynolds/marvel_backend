@@ -8,6 +8,20 @@ function characterIndex(req, res) {
   });
 }
 
+function characterHeroIndex(req, res) {
+  db.Character.find({organization: 'avengers'}, function(err, avengers) {
+    if (err) res.send(err);
+    else res.json(avengers);
+  });
+}
+
+function characterVillainIndex(req, res) {
+  db.Character.find({organization: 'villain'}, function(err, villains) {
+    if (err) res.send(err);
+    else res.json(villains);
+  });
+}
+
 function characterIndexID(req, res) {
   db.Character.findOne({_id: req.params.character_id}, function(err, characterID) {
     if (err) res.send(err);
@@ -32,7 +46,10 @@ function characterDestroy(req, res) {
 }
 
 module.exports.characterIndex = characterIndex;
+module.exports.characterHeroIndex = characterHeroIndex;
+module.exports.characterVillainIndex = characterVillainIndex;
 module.exports.characterIndexID = characterIndexID;
+
 module.exports.characterCreate = characterCreate;
 module.exports.characterShow = characterShow;
 module.exports.characterUpdate = characterUpdate;

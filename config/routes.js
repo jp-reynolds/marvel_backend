@@ -6,6 +6,8 @@ var placeController = require('../controller/places');
 //CHARACTER ROUTES
 router.get('/api/characters', characterController.characterIndex);
 router.get('/api/characters/:character_id', characterController.characterIndexID);
+router.get('/api/heroes', characterController.characterHeroIndex);
+router.get('/api/villains', characterController.characterVillainIndex);
 
 //PLACES ROUTES
 router.get('/api/places/', placeController.placeIndex);
