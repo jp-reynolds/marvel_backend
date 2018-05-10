@@ -29,6 +29,13 @@ function characterIndexID(req, res) {
   });
 }
 
+function characterHeroPage(req, res) {
+  db.Character.findOne({supername: req.params.supername}, function (err, hero) {
+    if (err) res.send(err);
+    else res.json(hero);
+  });
+}
+
 function characterCreate(req, res) {
   
 }
@@ -49,6 +56,7 @@ module.exports.characterIndex = characterIndex;
 module.exports.characterHeroIndex = characterHeroIndex;
 module.exports.characterVillainIndex = characterVillainIndex;
 module.exports.characterIndexID = characterIndexID;
+module.exports.characterHeroPage = characterHeroPage;
 
 module.exports.characterCreate = characterCreate;
 module.exports.characterShow = characterShow;
