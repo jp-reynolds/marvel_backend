@@ -22,27 +22,25 @@ function characterVillainIndex(req, res) {
   });
 }
 
-function characterIndexID(req, res) {
-  db.Character.findOne({_id: req.params.character_id}, function(err, characterID) {
-    if (err) res.send(err);
-    else res.json(characterID);
+function characterHeroCreate(req, res) {
+  let newHero = {
+    supername: req.body.supername,
+    name: req.body.name,
+    abilities: req.body.abilities,
+    summary: req.body.summary,
+    allies: req.body.allies,
+    foes: req.body.foes,
+    quote: req.body.quote,
+    image: req.body.image,
+    organization: "avengers"
+  }
+  db.Character.create(newHero, function (err, newHero) {
+    if(err) res.send(err);
+    res.json(newHero);
   });
-}
-
-function characterHeroPage(req, res) {
-  db.Character.findOne({supername: req.params.supername}, function (err, hero) {
-    if (err) res.send(err);
-    else res.json(hero);
-  });
-}
-
-function characterCreate(req, res) {
   
 }
 
-function characterShow(req, res) {
-
-}
 
 function characterUpdate(req, res) {
 
@@ -55,10 +53,8 @@ function characterDestroy(req, res) {
 module.exports.characterIndex = characterIndex;
 module.exports.characterHeroIndex = characterHeroIndex;
 module.exports.characterVillainIndex = characterVillainIndex;
-module.exports.characterIndexID = characterIndexID;
-module.exports.characterHeroPage = characterHeroPage;
 
-module.exports.characterCreate = characterCreate;
-module.exports.characterShow = characterShow;
+module.exports.characterHeroCreate = characterHeroCreate;
+
 module.exports.characterUpdate = characterUpdate;
 module.exports.characterDestroy = characterDestroy;
