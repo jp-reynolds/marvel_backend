@@ -40,7 +40,7 @@ var characterSeedList = [
 		image: "https://i.imgur.com/lcERhBZ.jpg"
 	},
 	{
-		supername: "The Incredible Hulk",
+		supername: "Incredible Hulk",
 		name: "Bruce Banner", 
 		origin: "...", 
 		abilities: "Doctor, Gamma radiation, super strength",
