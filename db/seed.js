@@ -4,6 +4,66 @@ var db = require("../models");
 var characterSeedList = [
 
 	{
+		supername: "Captain America",
+		name: "Scott Rodgers", 
+		origin: "Brooklyn, NY", 
+		abilities: "Super-soldier, Vibranium Shield, Doing the right thing",
+		summary: "...",
+		allies: "Winter Soldier, Peggy Carter, Falcon",
+		foes: "HYDRA, Red Skull, Dr. Arnim Zola",
+		quote: "...",
+		organization: "avengers",
+		image: "https://i.imgur.com/lI3C5Ep.jpg"
+	},
+	{
+		supername: "Ironman",
+		name: "Tony Stark", 
+		origin: "...", 
+		abilities: "Genius, Super-suit, witty comments",
+		summary: "adopted by Howard Stark,, graduated from MIT at the age of 15...",
+		allies: "War Machine, J.A.R.V.I.S., Peggy Potts",
+		foes: "Iron Monger, Ultron, Aldrich Killian, Justin Hammer",
+		quote: "I single handedly privatized World Peace",
+		organization: "avengers"		,
+		image: "https://i.imgur.com/HITddnp.jpg"
+	},
+	{
+		supername: "Thor",
+		name: "Thor Odinson", 
+		origin: "Prince of Asgard", 
+		abilities: "God of thunder, Hammer, Handsome",
+		summary: "Complications with his brother Loki and ruling Asgard, loves Earth or Midgard.....",
+		allies: "Jane Foster, Erik Selvig, Odin, Heimdall",
+		foes: "Loki, Malekith, Hela, Thanos",
+		quote: "I am mighty",
+		organization: "avengers",
+		image: "https://i.imgur.com/lcERhBZ.jpg"
+	},
+	{
+		supername: "Incredible Hulk",
+		name: "Bruce Banner", 
+		origin: "...", 
+		abilities: "Doctor, Gamma radiation, super strength",
+		summary: "Experiment with gamma radiation on something went terribly wrong....",
+		allies: "Betty Ross, Black Widow",
+		foes: "Abomination, himself..",
+		quote: "HULK SMASH!!",
+		organization: "avengers",
+		image: "https://i.imgur.com/bQ0ACp5.jpg"
+	},
+	{
+		supername: "Spiderman",
+		name: "Peter Parker", 
+		origin: "Forest Hills, NY", 
+		abilities: "Spidey Senses, Super Strength, Genius",
+		summary: "Lost his parents at the age of 6 and moved in with his Uncle Ben and Aunt May. Got bit by a spider, top of his class in highschool...",
+		allies: "Betty Ross, Black Widow",
+		foes: "Abomination, himself..",
+		quote: "Just your friendly, neighborhood Spiderman!",
+		organization: "avengers",
+		image: "https://i.imgur.com/lD7m17E.jpg"
+	},
+	{
 		supername: "The Vision?",
 		name: "...", 
 		origin: "...", 
@@ -122,66 +182,6 @@ var characterSeedList = [
 		quote: "...",
 		organization: "avengers",
 		image: "https://i.imgur.com/NPWAkJE.jpg"
-	},
-	{
-		supername: "Captain America",
-		name: "Scott Rodgers", 
-		origin: "Brooklyn, NY", 
-		abilities: "Super-soldier, Vibranium Shield, Doing the right thing",
-		summary: "...",
-		allies: "Winter Soldier, Peggy Carter, Falcon",
-		foes: "HYDRA, Red Skull, Dr. Arnim Zola",
-		quote: "...",
-		organization: "avengers",
-		image: "https://i.imgur.com/lI3C5Ep.jpg"
-	},
-	{
-		supername: "Ironman",
-		name: "Tony Stark", 
-		origin: "...", 
-		abilities: "Genius, Super-suit, witty comments",
-		summary: "adopted by Howard Stark,, graduated from MIT at the age of 15...",
-		allies: "War Machine, J.A.R.V.I.S., Peggy Potts",
-		foes: "Iron Monger, Ultron, Aldrich Killian, Justin Hammer",
-		quote: "I single handedly privatized World Peace",
-		organization: "avengers"		,
-		image: "https://i.imgur.com/HITddnp.jpg"
-	},
-	{
-		supername: "Thor",
-		name: "Thor Odinson", 
-		origin: "Prince of Asgard", 
-		abilities: "God of thunder, Hammer, Handsome",
-		summary: "Complications with his brother Loki and ruling Asgard, loves Earth or Midgard.....",
-		allies: "Jane Foster, Erik Selvig, Odin, Heimdall",
-		foes: "Loki, Malekith, Hela, Thanos",
-		quote: "I am mighty",
-		organization: "avengers",
-		image: "https://i.imgur.com/lcERhBZ.jpg"
-	},
-	{
-		supername: "Incredible Hulk",
-		name: "Bruce Banner", 
-		origin: "...", 
-		abilities: "Doctor, Gamma radiation, super strength",
-		summary: "Experiment with gamma radiation on something went terribly wrong....",
-		allies: "Betty Ross, Black Widow",
-		foes: "Abomination, himself..",
-		quote: "HULK SMASH!!",
-		organization: "avengers",
-		image: "https://i.imgur.com/bQ0ACp5.jpg"
-	},
-	{
-		supername: "Spiderman",
-		name: "Peter Parker", 
-		origin: "Forest Hills, NY", 
-		abilities: "Spidey Senses, Super Strength, Genius",
-		summary: "Lost his parents at the age of 6 and moved in with his Uncle Ben and Aunt May. Got bit by a spider, top of his class in highschool...",
-		allies: "Betty Ross, Black Widow",
-		foes: "Abomination, himself..",
-		quote: "Just your friendly, neighborhood Spiderman!",
-		organization: "avengers",
-		image: "https://i.imgur.com/lD7m17E.jpg"
 	},
 	{
 		supername: "Scarlet Witch",
