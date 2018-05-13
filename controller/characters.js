@@ -23,6 +23,7 @@ function characterVillainIndex(req, res) {
 }
 
 function characterHeroCreate(req, res) {
+  console.log(req.body)
   let newHero = {
     supername: req.body.supername,
     name: req.body.name,
@@ -32,13 +33,12 @@ function characterHeroCreate(req, res) {
     foes: req.body.foes,
     quote: req.body.quote,
     image: req.body.image,
-    organization: "avengers"
+    organization: req.body.organization
   }
   db.Character.create(newHero, function (err, newHero) {
     if(err) res.send(err);
     res.json(newHero);
   });
-  
 }
 
 

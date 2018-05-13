@@ -13,6 +13,7 @@ router.post('/api/characters', characterController.characterHeroCreate);
 
 
 
+
 //PLACES ROUTES
 router.get('/api/places/', placeController.placeIndex);
 router.get('/api/places/:place_id', placeController.placeIndexID);

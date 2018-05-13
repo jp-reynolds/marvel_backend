@@ -5,7 +5,7 @@ var characterSeedList = [
 
 	{
 		supername: "Captain America",
-		name: "Scott Rodgers", 
+		name: "Steve Rodgers", 
 		origin: "Brooklyn, NY", 
 		abilities: "Super-soldier, Vibranium Shield, Doing the right thing",
 		summary: "...",
