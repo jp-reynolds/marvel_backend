@@ -16,6 +16,17 @@ function placeIndexID(req, res) {
 }
 
 function placeCreate(req, res) {
+	let newPlace = {
+		name: req.body.name,
+		where: req.body.where,
+		summary: req.body.summary,
+		events: req.body.events,
+		image: req.body.image
+	}
+	db.Place.create(newPlace, function (err, newPlace) {
+		if(err) res.send(err);
+		res.json(newPlace);
+	});
   
 }
 
