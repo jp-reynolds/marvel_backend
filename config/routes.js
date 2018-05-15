@@ -18,6 +18,7 @@ router.put('/api/characters', characterController.characterUpdate);
 router.get('/api/places/', placeController.placeIndex);
 router.get('/api/places/:place_id', placeController.placeIndexID);
 router.post('/api/places', placeController.placeCreate);
+router.put("/api/places", placeController.placeUpdate);
 
 
 module.exports = router;

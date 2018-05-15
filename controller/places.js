@@ -29,13 +29,30 @@ function placeCreate(req, res) {
 	});
 }
 
-function placeShow(req, res) {
 
-}
+	function placeUpdate(req, res) {
+		console.log(req.body);
+		let id = req.body.id;
 
-function placeUpdate(req, res) {
-
-}
+		db.Place.findOneAndUpdate(
+			{_id: id},
+			{$set: {
+				name: req.body.name,
+				where: req.body.where,
+				summary: req.body.summary,
+				events: req.body.events,
+				image: req.body.image
+				}
+			},
+			{new:true},
+			function (err, doc) {
+				if (err) {
+					console.log("error updating place");
+				} else {
+					res.json(doc);
+				}
+			});
+	}
 
 function placeDestroy(req, res) {
 
@@ -44,6 +61,6 @@ function placeDestroy(req, res) {
 module.exports.placeIndex = placeIndex;
 module.exports.placeIndexID = placeIndexID;
 module.exports.placeCreate = placeCreate;
-module.exports.placeShow = placeShow;
+
 module.exports.placeUpdate = placeUpdate;
 module.exports.placeDestroy = placeDestroy;
