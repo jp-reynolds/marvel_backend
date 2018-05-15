@@ -10,6 +10,7 @@ const characterSchema = new Schema ({
 	summary: String,
 	allies: String,
 	foes: String,
+	quote: String,
 	organization: String,
 	image: String
 });

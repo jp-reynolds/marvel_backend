@@ -9,7 +9,7 @@ router.get('/api/heroes', characterController.characterHeroIndex);
 router.get('/api/villains', characterController.characterVillainIndex);
 
 router.post('/api/characters', characterController.characterHeroCreate);
-
+router.put('/api/characters', characterController.characterUpdate);
 
 
 
@@ -18,5 +18,6 @@ router.post('/api/characters', characterController.characterHeroCreate);
 router.get('/api/places/', placeController.placeIndex);
 router.get('/api/places/:place_id', placeController.placeIndexID);
 router.post('/api/places', placeController.placeCreate);
+
 
 module.exports = router;
